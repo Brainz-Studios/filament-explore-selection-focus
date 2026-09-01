@@ -1,0 +1,34 @@
+{
+    "name": "brainz-studios/filament-explore-selection-focus",
+    "description": "Scroll Filament Explore / Media Library pickers to pre-selected files when reopening the modal.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Brainz Studios",
+            "email": "hello@brainzstudios.cz"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^5.0",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "ralphjsmit/laravel-filament-explore": "^1.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrainzStudios\\FilamentExploreSelectionFocus\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BrainzStudios\\FilamentExploreSelectionFocus\\FilamentExploreSelectionFocusServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
